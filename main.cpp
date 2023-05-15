@@ -1,6 +1,7 @@
 #include "graphics.h"
 #include "MLine.h"
 #include "MPolygon.h"
+#include "MModel.h"
 #include <iostream>
 #include <string>
 
@@ -261,11 +262,56 @@ void RunPolygon()
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+void RunModel()
+{
+	MModel model;
+	// MModel model(true);
+	int key;
+
+	while (true)
+	{
+		system("cls");
+		std::cout << "Select mode :" << std::endl;
+		std::cout << "Finish the program (Esc)" << std::endl;
+		std::cout << "Move mode (G)" << std::endl;
+		std::cout << "Rotate mode (R)" << std::endl;
+		std::cout << "Scale mode (S)" << std::endl;
+
+		key = MPolygon::GetKey();
+
+		if (key == 27)
+			break;
+
+		std::cout << key << std::endl;
+
+		if (key == 103 || key == 71)
+		{
+			system("cls");
+			std::cout << "Move mode" << std::endl;
+			model.MoveModel();
+		}
+		else if (key == 82 || key == 114)
+		{
+			system("cls");
+			model.RotateModel();
+		}
+		else if (key == 83 || key == 115)
+		{
+			system("cls");
+			std::cout << "Scale mode" << std::endl;
+			model.ScaleModel();
+		}
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
 int main()
 {
 	initwindow(700, 700);
 
-	RunPolygon();
+	RunModel();
+	// RunPolygon();
 	// RunLines();
 
 	return 0;

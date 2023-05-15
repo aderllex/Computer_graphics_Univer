@@ -66,9 +66,11 @@
     <ClCompile Include="dibutil.cxx" />
     <ClCompile Include="drawing.cxx" />
     <ClCompile Include="file.cxx" />
+    <ClCompile Include="M3dPoint.cpp" />
     <ClCompile Include="MLine.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="misc.cxx" />
+    <ClCompile Include="MModel.cpp" />
     <ClCompile Include="mouse.cxx" />
     <ClCompile Include="MPolygon.cpp" />
     <ClCompile Include="palette.cxx" />
@@ -81,7 +83,9 @@
   <ItemGroup>
     <ClInclude Include="dibutil.h" />
     <ClInclude Include="graphics.h" />
+    <ClInclude Include="M3dPoint.h" />
     <ClInclude Include="MLine.h" />
+    <ClInclude Include="MModel.h" />
     <ClInclude Include="MPoint.h" />
     <ClInclude Include="MPolygon.h" />
     <ClInclude Include="winbgi.h" />

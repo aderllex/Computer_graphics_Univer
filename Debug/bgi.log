@@ -1,149 +1,150 @@
 ﻿  bgiout.cxx
   dibutil.cxx
   drawing.cxx
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\drawing.cxx(819,9): warning C4101: tries: неиспользованная локальная переменная
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\drawing.cxx(859,10): warning C4101: answer: неиспользованная локальная переменная
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\drawing.cxx(1110,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\drawing.cxx(819,9): warning C4101: tries: неиспользованная локальная переменная
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\drawing.cxx(859,10): warning C4101: answer: неиспользованная локальная переменная
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\drawing.cxx(1110,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   file.cxx
   MLine.cpp
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(82,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(82,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(82,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(82,12): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(88,13): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(89,13): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(93,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(93,13): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(95,8): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(95,22): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(118,27): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(118,17): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(121,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(121,14): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(117,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(120,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(151,15): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(152,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(154,15): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MLine.cpp(155,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(82,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(82,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(82,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(82,12): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(88,13): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(89,13): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(93,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(93,13): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(95,8): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(95,22): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(118,27): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(118,17): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(121,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(121,14): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(117,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(120,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(151,15): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(152,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(154,15): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MLine.cpp(155,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
   main.cpp
   misc.cxx
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(595,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(595,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(595,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(595,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(595,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(595,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(595,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(595,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(596,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(596,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(596,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(596,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(596,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(596,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(596,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(596,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(597,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(597,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(597,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(597,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(597,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(597,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(597,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(597,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(598,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(598,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(598,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(598,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(598,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(598,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(598,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(598,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(599,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(599,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(599,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(599,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(599,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(599,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(599,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\misc.cxx(599,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(595,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(595,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(595,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(595,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(595,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(595,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(595,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(595,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(596,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(596,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(596,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(596,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(596,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(596,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(596,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(596,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(597,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(597,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(597,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(597,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(597,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(597,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(597,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(597,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(598,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(598,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(598,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(598,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(598,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(598,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(598,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(598,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(599,39): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(599,46): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(599,53): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(599,60): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(599,67): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(599,74): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(599,81): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\misc.cxx(599,88): warning C4838: Преобразование из "int" в "unsigned short" требует сужающего преобразования.
   mouse.cxx
   MPolygon.cpp
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(19,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(19,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(44,32): warning C4244: аргумент: преобразование "float" в "const _Ty", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(19,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(19,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(44,32): warning C4244: аргумент: преобразование "float" в "const _Ty", возможна потеря данных
           with
           [
               _Ty=int
           ]
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(45,32): warning C4244: аргумент: преобразование "float" в "const _Ty", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(45,32): warning C4244: аргумент: преобразование "float" в "const _Ty", возможна потеря данных
           with
           [
               _Ty=int
           ]
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(63,19): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(63,16): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(116,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(116,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(115,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(138,28): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(138,18): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(158,49): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(158,39): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(161,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(161,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(166,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(166,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(174,35): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(174,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(137,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(160,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(165,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(173,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(209,38): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(210,39): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(230,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(230,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(234,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(234,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(247,35): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(247,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(229,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(233,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPolygon.cpp(246,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(63,19): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(63,16): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(116,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(116,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(115,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(138,28): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(138,18): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(158,49): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(158,39): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(161,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(161,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(166,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(166,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(174,35): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(174,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(137,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(160,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(165,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(173,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(209,38): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(210,39): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(230,36): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(230,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(234,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(234,19): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(247,35): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(247,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(229,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(233,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPolygon.cpp(246,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   palette.cxx
   main.cxx
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(189,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(189,9): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(192,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(192,9): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(195,42): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(194,56): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(194,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(194,20): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(333,27): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(367,21): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(388,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\main.cxx(397,21): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(189,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(189,9): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(192,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(192,9): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(195,42): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(194,56): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(194,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(194,20): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(333,27): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(367,21): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(388,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\main.cxx(397,21): warning C4244: =: преобразование "float" в "int", возможна потеря данных
   MPoint.cpp
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(17,15): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(17,12): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(16,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(30,25): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(30,16): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(29,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(44,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(45,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(17,15): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(17,12): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(16,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(30,25): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(30,16): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(29,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(44,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(45,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
   text.cxx
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\text.cxx(348,19): warning C4018: <: несоответствие типов со знаком и без знака
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\text.cxx(348,19): warning C4018: <: несоответствие типов со знаком и без знака
   winbgi.cxx
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\winbgi.cxx(134,14): warning C4101: actual_color: неиспользованная локальная переменная
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\winbgi.cxx(133,9): warning C4101: bgi_color: неиспользованная локальная переменная
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\winbgi.cxx(494,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\winbgi.cxx(134,14): warning C4101: actual_color: неиспользованная локальная переменная
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\winbgi.cxx(133,9): warning C4101: bgi_color: неиспользованная локальная переменная
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\winbgi.cxx(494,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   winthread.cxx
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\winthread.cxx(320,9): warning C4101: i: неиспользованная локальная переменная
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\winthread.cxx(320,9): warning C4101: i: неиспользованная локальная переменная
   Создание кода...
-C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\MPoint.cpp(56): warning C4715: MPoint::PointRotate: значение возвращается не при всех путях выполнения
+d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\MPoint.cpp(56): warning C4715: MPoint::PointRotate: значение возвращается не при всех путях выполнения
+  LINK : не найден или не выполнена сборка d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\Debug\bgi.exe при последней инкрементной компоновке; выполняется полная компоновка
 Debug\main.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
-  bgi.vcxproj -> C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\Debug\bgi.exe
+  bgi.vcxproj -> d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\Debug\bgi.exe
