@@ -4,3 +4,4 @@ C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\Debug\bgi.exe
 C:\Users\User\YandexDisk\Visual Studio 2019\Projects\Graphics\Debug\bgi.pdb
 d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\Debug\bgi.exe
 d:\WinUsers\User\Documents\Repositories\Computer_graphics_Univer\Debug\bgi.pdb
+D:\Repositories\Visual Studio 2019\Projects\Graphics\Debug\bgi.exe

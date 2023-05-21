@@ -265,42 +265,59 @@ void RunPolygon()
 void RunModel()
 {
 	MModel model;
-	// MModel model(true);
 	int key;
 
 	while (true)
 	{
-		system("cls");
-		std::cout << "Select mode :" << std::endl;
-		std::cout << "Finish the program (Esc)" << std::endl;
-		std::cout << "Move mode (G)" << std::endl;
-		std::cout << "Rotate mode (R)" << std::endl;
-		std::cout << "Scale mode (S)" << std::endl;
+		line(400, 0, 400, 800);
+		line(0, 400, 800, 400);
 
 		key = MPolygon::GetKey();
 
-		if (key == 27)
+		// std::cout << key << std::endl;
+
+		if (key == 27) // Esc
 			break;
 
-		std::cout << key << std::endl;
+		else if (key == 49)
+		{
+			std::cout << "Plane for rotating : XY" << std::endl;
+			model.SetPlaneRotate(1);
+		}
+		else if (key == 50)
+		{
+			std::cout << "Plane for rotating : XZ" << std::endl;
+			model.SetPlaneRotate(2);
+		}
+		else if (key == 51)
+		{
+			std::cout << "Plane for rotating : YZ" << std::endl;
+			model.SetPlaneRotate(3);
+		}
 
-		if (key == 103 || key == 71)
-		{
-			system("cls");
-			std::cout << "Move mode" << std::endl;
-			model.MoveModel();
-		}
-		else if (key == 82 || key == 114)
-		{
-			system("cls");
-			model.RotateModel();
-		}
-		else if (key == 83 || key == 115)
-		{
-			system("cls");
-			std::cout << "Scale mode" << std::endl;
-			model.ScaleModel();
-		}
+		else if (key == 113) // q
+			model.MoveModel("outside");
+		else if (key == 119) // w
+			model.MoveModel("up");
+		else if (key == 101) // e
+			model.MoveModel("inside");
+		else if (key == 114) // r
+			model.RotateModel(false);
+		else if (key == 116) // t
+			model.RotateModel(true);
+		else if (key == 97) // a
+			model.MoveModel("left");
+		else if (key == 115) // s
+			model.MoveModel("down");
+		else if (key == 100) // d
+			model.MoveModel("right");
+		else if (key == 122) // z
+			model.ScaleModel(false);
+		else if (key == 120) // x 
+			model.ScaleModel(true);
+		
+		cleardevice();
+		model.ShowModel();
 	}
 }
 
@@ -308,7 +325,7 @@ void RunModel()
 
 int main()
 {
-	initwindow(700, 700);
+	initwindow(800, 800);
 
 	RunModel();
 	// RunPolygon();
