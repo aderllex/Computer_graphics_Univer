@@ -52,3 +52,10 @@ void M3dPoint::Point3dRotate(int angle, int x, int y, int z, int plane)
 		this->z = deltaZ + z;
 	}
 }
+
+bool operator==(M3dPoint& point1, M3dPoint& point2)
+{
+	if(point1.x == point2.x && point1.y == point2.y && point1.z == point2.z)
+		return true;
+	return false;
+}

@@ -264,60 +264,65 @@ void RunPolygon()
 
 void RunModel()
 {
-	MModel model;
+	MModel* model;
+	if (MModel::laba == 4)
+		model = new MModel();
+	else if (MModel::laba == 5)
+		model = new MModel(true);
+
 	int key;
 
 	while (true)
 	{
-		line(400, 0, 400, 800);
-		line(0, 400, 800, 400);
-
 		key = MPolygon::GetKey();
 
-		// std::cout << key << std::endl;
+		std::cout << key << std::endl;
 
 		if (key == 27) // Esc
 			break;
+		// else if(key == 9) // Tab
+		// ix= ix - x*cos(угол изометрии в градусах) + y*cos(угол изометрии в градусах)
+		// iy = iy + x * sin(угол...) + y * sin(угол) - z
 
 		else if (key == 49)
 		{
 			std::cout << "Plane for rotating : XY" << std::endl;
-			model.SetPlaneRotate(1);
+			model->SetPlaneRotate(1);
 		}
 		else if (key == 50)
 		{
 			std::cout << "Plane for rotating : XZ" << std::endl;
-			model.SetPlaneRotate(2);
+			model->SetPlaneRotate(2);
 		}
 		else if (key == 51)
 		{
 			std::cout << "Plane for rotating : YZ" << std::endl;
-			model.SetPlaneRotate(3);
+			model->SetPlaneRotate(3);
 		}
 
 		else if (key == 113) // q
-			model.MoveModel("outside");
+			model->MoveModel("outside");
 		else if (key == 119) // w
-			model.MoveModel("up");
+			model->MoveModel("up");
 		else if (key == 101) // e
-			model.MoveModel("inside");
-		else if (key == 114) // r
-			model.RotateModel(false);
-		else if (key == 116) // t
-			model.RotateModel(true);
+			model->MoveModel("inside");
+		else if (key == 75) // left arrow
+			model->RotateModel(false);
+		else if (key == 77) // right arrow
+			model->RotateModel(true);
 		else if (key == 97) // a
-			model.MoveModel("left");
+			model->MoveModel("left");
 		else if (key == 115) // s
-			model.MoveModel("down");
+			model->MoveModel("down");
 		else if (key == 100) // d
-			model.MoveModel("right");
-		else if (key == 122) // z
-			model.ScaleModel(false);
-		else if (key == 120) // x 
-			model.ScaleModel(true);
+			model->MoveModel("right");
+		else if (key == 72) // up arrow
+			model->ScaleModel(false);
+		else if (key == 80) // down arrow 
+			model->ScaleModel(true);
 		
 		cleardevice();
-		model.ShowModel();
+		model->ShowModel();
 	}
 }
 
