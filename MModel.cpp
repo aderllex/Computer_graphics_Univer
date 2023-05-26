@@ -66,6 +66,34 @@ MModel::MModel(bool IsFiveLaba)
 	ShowModel();
 }
 
+MModel::MModel(int newCordinates)
+{
+	std::vector<M3dPoint> points(4);
+	points[0].x = 200;
+	points[0].y = 200;
+	points[0].z = 150;
+
+	points[1].x = 500;
+	points[1].y = 300;
+	points[1].z = 100;
+
+	points[2].x = 300;
+	points[2].y = 400;
+	points[2].z = 200;
+
+	points[3].x = 300;
+	points[3].y = 300;
+	points[3].z = 400;
+
+	this->points = points;
+
+	center.x = 300;
+	center.y = 300;
+	center.z = 300;
+
+	ShowModel();
+}
+
 std::vector<Face> MModel::FacesCalculating()
 {
 	std::vector<Face> faces(4);
@@ -116,8 +144,8 @@ void MModel::FillModel()
 	std::vector<M3dPoint> massivForZFunction = SortPointsForZFunction(points);
 	faces = FacesCalculating();
 
-	for (int i = 0; i < massivForZFunction.size(); ++i)
-		std::cout << massivForZFunction[i].z << std::endl;
+	/*for (int i = 0; i < massivForZFunction.size(); ++i)
+		std::cout << massivForZFunction[i].z << std::endl;*/
 
 	for (int i = 0; i < faces.size(); ++i)
 		faces[i].priority = SetFacePriority(faces[i], massivForZFunction);
@@ -257,6 +285,7 @@ std::vector<M3dPoint> MModel::SortPointsForZFunction(std::vector<M3dPoint> input
 
 void MModel::ShowXY()
 {
+
 	for (int i = 1; i < 3; ++i)
 	{
 		line(points[i - 1].x, points[i - 1].y, points[i].x, points[i].y);
@@ -290,66 +319,86 @@ void MModel::ShowYZ()
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-void MModel::MoveModel(std::string movement)
+bool MModel::MoveModel(std::string movement)
 {
+	std::vector<M3dPoint> testPoints = points;
 	if (movement == "inside")
 	{
 		std::cout << "inside" << std::endl;
-		for (int i = 0; i < points.size(); ++i)
-			points[i].z += 10;
+		for (int i = 0; i < testPoints.size(); ++i)
+			testPoints[i].z += 10;
 		center.z += 10;
 	}
 	else if (movement == "outside")
 	{
 		std::cout << "outside" << std::endl;
-		for (int i = 0; i < points.size(); ++i)
-			points[i].z -= 10;
+		for (int i = 0; i < testPoints.size(); ++i)
+			testPoints[i].z -= 10;
 		center.z -= 10;
 	}
 	else if (movement == "up")
 	{
 		std::cout << "up" << std::endl;
-		for (int i = 0; i < points.size(); ++i)
-			points[i].y -= 10;
+		for (int i = 0; i < testPoints.size(); ++i)
+			testPoints[i].y -= 10;
 		center.y -= 10;
 	}
 	else if (movement == "down")
 	{
 		std::cout << "down" << std::endl;
-		for (int i = 0; i < points.size(); ++i)
-			points[i].y += 10;
+		for (int i = 0; i < testPoints.size(); ++i)
+			testPoints[i].y += 10;
 		center.y += 10;
 	}
 	else if (movement == "left")
 	{
 		std::cout << "left" << std::endl;
-		for (int i = 0; i < points.size(); ++i)
-			points[i].x -= 10;
+		for (int i = 0; i < testPoints.size(); ++i)
+			testPoints[i].x -= 10;
 		center.x -= 10;
 	}
 	else if (movement == "right")
 	{
 		std::cout << "right" << std::endl;
-		for (int i = 0; i < points.size(); ++i)
-			points[i].x += 10;
+		for (int i = 0; i < testPoints.size(); ++i)
+			testPoints[i].x += 10;
 		center.x += 10;
 	}
+
+	if (IsCoordinatasCorrect(testPoints) == false && MModel::laba == 4)
+	{
+		std::cout << "NOPE!" << std::endl;
+		return false;
+	}
+
+	points = testPoints;
+	return true;
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-void MModel::RotateModel(bool IsClockwise)
+bool MModel::RotateModel(bool IsClockwise)
 {
+	std::vector<M3dPoint> testPoints = points;
 	if (IsClockwise)
 	{
 		for (int i = 0; i < 4; ++i)
-			points[i].Point3dRotate(10, center.x, center.y, center.z, planeRotate);
+			testPoints[i].Point3dRotate(10, center.x, center.y, center.z, planeRotate);
 	}
 	else
 	{
 		for (int i = 0; i < 4; ++i)
-			points[i].Point3dRotate(-10, center.x, center.y, center.z, planeRotate);
+			testPoints[i].Point3dRotate(-10, center.x, center.y, center.z, planeRotate);
 	}
+
+	if (IsCoordinatasCorrect(testPoints) == false && MModel::laba == 4)
+	{
+		std::cout << "NOPE!" << std::endl;
+		return false;
+	}
+
+	points = testPoints;
+	return true;
 }
 
 void MModel::SetPlaneRotate(int plane)
@@ -359,24 +408,48 @@ void MModel::SetPlaneRotate(int plane)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-void MModel::ScaleModel(bool IsIncrease)
+bool MModel::ScaleModel(bool IsIncrease)
 {
+	std::vector<M3dPoint> testPoints = points;
 	if (IsIncrease)
 	{
 		for (int i = 0; i < points.size(); ++i)
 		{
-			points[i].x = center.x + (points[i].x - center.x) * 0.9;
-			points[i].y = center.y + (points[i].y - center.y) * 0.9;
-			points[i].z = center.z + (points[i].z - center.z) * 0.9;
+			testPoints[i].x = center.x + (testPoints[i].x - center.x) * 0.9;
+			testPoints[i].y = center.y + (testPoints[i].y - center.y) * 0.9;
+			testPoints[i].z = center.z + (testPoints[i].z - center.z) * 0.9;
 		}
 	}
 	else
 	{
 		for (int i = 0; i < points.size(); ++i)
 		{
-			points[i].x = center.x + (points[i].x - center.x) * 1.1;
-			points[i].y = center.y + (points[i].y - center.y) * 1.1;
-			points[i].z = center.z + (points[i].z - center.z) * 1.1;
+			testPoints[i].x = center.x + (testPoints[i].x - center.x) * 1.1;
+			testPoints[i].y = center.y + (testPoints[i].y - center.y) * 1.1;
+			testPoints[i].z = center.z + (testPoints[i].z - center.z) * 1.1;
 		}
 	}
+
+	if (IsCoordinatasCorrect(testPoints) == false && MModel::laba == 4)
+	{
+		std::cout << "NOPE!" << std::endl;
+		return false;
+	}
+	
+	points = testPoints;
+	return true;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+bool MModel::IsCoordinatasCorrect(std::vector<M3dPoint> testPoints)
+{
+	for (int i = 0; i < points.size(); ++i)
+	{
+		if (testPoints[i].x > 400)
+			return false;
+		if (testPoints[i].y > 400)
+			return false;
+	}
+	return true;
 }

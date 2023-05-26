@@ -276,10 +276,11 @@ void RunModel()
 	{
 		key = MPolygon::GetKey();
 
-		std::cout << key << std::endl;
+		// std::cout << key << std::endl;
 
 		if (key == 27) // Esc
 			break;
+
 		// else if(key == 9) // Tab
 		// ix= ix - x*cos(угол изометрии в градусах) + y*cos(угол изометрии в градусах)
 		// iy = iy + x * sin(угол...) + y * sin(угол) - z

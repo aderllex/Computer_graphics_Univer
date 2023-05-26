@@ -19,16 +19,19 @@ class MModel
 public:
 	MModel();
 	MModel(bool IsFiveLaba);
+	MModel(int newCoordinates);
 
-	void MoveModel(std::string movement);
-	void RotateModel(bool IsClockwise);
-	void ScaleModel(bool IsIncrease);
+	bool MoveModel(std::string movement);
+	bool RotateModel(bool IsClockwise);
+	bool ScaleModel(bool IsIncrease);
 	void ShowModel();
 	void SetPlaneRotate(int plane);
 
 	static int laba;
 
 private:
+	bool IsCoordinatasCorrect(std::vector<M3dPoint> testPoints);
+
 	void FillModel();
 	std::vector<Face> FacesCalculating();
 	std::vector<M3dPoint> SortPointsForZFunction(std::vector<M3dPoint> massivForZFunction);
